@@ -1,0 +1,44 @@
+repo_name: mollypi/manifests
+report_id: 79baf5603203a12c9b9755912063d1e5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:46:06+00:00'
+requested_by: pipecd-bot
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/mollypi/manifests
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/manifests
+  detection_source: Repo Metadata
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/mollypi/manifests/blob/master/manifests/pipecd/Chart.yaml
+  detection_source: manifests/pipecd/Chart.yaml
+  last_updated_by: pipecd-bot
+  last_updated_on: 2021-08-31 02:26:36.000000000 Z
